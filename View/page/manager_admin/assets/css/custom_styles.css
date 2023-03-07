@@ -1,0 +1,104 @@
+/**Account */
+.account,
+.add-new,
+.changepass{
+    margin-top: 50px;
+    margin-bottom: 60px;
+}
+.account .action{
+    padding-bottom: 30px;
+}
+
+.account .main-action{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 16px;
+}
+.account .main-action h5,
+.add-new h2{
+    /* text-align: center; */
+    font-size: 27px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.account table{
+    text-align: center;
+    margin: 0 auto;
+}
+.account table th,
+.account table td:first-child{
+    background-color: #dbdbdb;
+}
+.account table th, 
+.account table td{
+    padding: 5px;
+}
+.account table a{
+    padding: 0 3px;
+}
+/*END*/
+
+
+/*Add job*/
+.add-new h2{
+    margin-bottom: 15px;
+}
+.add-new form{
+    width: 80%
+}
+.changepass form{
+    padding: 0 260px;
+}
+.add-new form label,
+.changepass form label{
+    margin-bottom: 20px;
+}
+.add-new form label,
+.add-new form label input,
+.changepass form label,
+.changepass form label input{
+    width: 100%;
+}
+.add-new form label input,
+.changepass form label input{
+    height: 35px;
+}
+.add-new form label p,
+.add-new .category p,
+.changepass form label p{
+    margin-bottom: 5px;
+}
+.add-new form textarea{
+    width: 100%;
+}
+.add-new .category .nice-select{
+    width: 100%;
+}
+.add-new input[type="submit"],
+.changepass input[type="submit"]{
+    margin-top: 20px;
+    background: none;
+    border: 1px solid #fb246a;
+    color: #fb246a;
+    padding: 20px 25px;
+    text-transform: capitalize;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    line-height: 0;
+    border-radius: 0px;
+    overflow: hidden;
+    transition: color 0.4s linear;
+    position: relative;
+    z-index: 1;
+    cursor: pointer;
+}
+.add-new input[type="submit"]:hover,
+.changepass input[type="submit"]:hover{
+    background-color: #fb246a;
+    color: #fff;
+}

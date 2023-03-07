@@ -1,0 +1,114 @@
+.manager a{
+    color: #635c5c;
+}
+
+.manager h4{
+    padding-top: 40px;
+}
+.manager table{
+    margin: 0 auto;
+}
+.manager h4.hello,
+.manager .action,
+.manager h3,
+.manager table{
+    text-align: center;
+}
+.manager .action a{
+    padding: 0 10px;
+}
+.manager h3{
+    padding-top: 23px;
+}
+.manager table th{
+    padding: 10px 5px;
+    background: #dbdbdb;
+}
+.manager table td:first-child{
+    background: #dbdbdb;
+}
+.manager table th,
+.manager table td{
+    padding: 5px;
+}
+.manager table a{
+    display: block;
+}
+
+.manager .categories-manage .action{
+    margin-bottom: 20px;
+}
+
+.manager .left-list{
+    position: absolute;
+    float: left;
+    min-height: 165vh;
+    z-index: 9990;
+    width: 160px;
+    background-color: #1d2327;
+    top: 85px;
+    bottom: 0;
+    left: 0;
+}
+.manager .left-list h4{
+    color: #fff;
+    text-align: center;
+}
+.manager .left-list ul{
+    padding-top: 10px;
+    padding-left: 25px;
+}
+.manager .left-list ul li{
+    padding: 5px 0px;
+}
+.manager .left-list ul li a{
+    color: #fff;
+}
+.manager .content{
+    margin-left: 160px;
+}
+@media(max-width: 991px){
+    .manager .left-list{
+        top: 74px;
+    }
+    .manager .content{
+        margin-left: 125px;
+    }
+}
+@media(max-width: 768px){
+    .manager table.jobs-table td:nth-child(3),
+    .manager table.jobs-table th:nth-child(3),
+    .manager table.jobs-table td:nth-child(6),
+    .manager table.jobs-table th:nth-child(6),
+    .manager table.jobs-table td:nth-child(7),
+    .manager table.jobs-table th:nth-child(7){
+        display: none;
+    }
+}
+@media(max-width: 600px){
+    .manager .left-list{
+        width: 125px;
+    }
+    .manager h4{
+        font-size: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .manager .left-list ul{
+        padding-left: 15px;
+    }
+    .manager .left-list ul li a{
+        font-size: 14px;
+    }
+    .manager .content{
+        margin-left: 105px;
+    }
+    .manager table.jobs-table td:nth-child(4),
+    .manager table.jobs-table th:nth-child(4){
+        display: none;
+    }
+    .manager table th, .manager table td{
+        font-size: 12px;
+        padding: 0 3px;
+    }
+}

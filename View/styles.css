@@ -1,0 +1,198 @@
+.header-area{
+    background-color: #dbdbdb;
+}
+.account .action,
+.account h3,
+.changepass .action,
+.changepass h3{
+    text-align: center;
+}
+.account a,
+.changepass a{
+    color: #635c5c;
+    padding: 0 15px;
+}
+.account a:hover,
+.changepass a:hover{
+    color: #fb246a;
+}
+
+
+/**Account */
+.account,
+.add-job,
+.changepass{
+    margin-top: 50px;
+    margin-bottom: 60px;
+}
+.account .action{
+    padding-bottom: 30px;
+}
+
+.account .main-action{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 16px;
+}
+.account .main-action h5,
+.add-job h2{
+    text-align: center;
+    font-size: 27px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.account table{
+    text-align: center;
+    margin: 0 auto;
+}
+.account table th,
+.account table td:first-child{
+    background-color: #dbdbdb;
+}
+.account table th, 
+.account table td{
+    padding: 5px;
+}
+.account table a{
+    padding: 0 3px;
+}
+/*END*/
+
+
+/*Add job*/
+.add-job h2{
+    margin-bottom: 15px;
+}
+.add-job form,
+.changepass form{
+    padding: 0 150px;
+}
+.changepass form{
+    padding: 0 260px;
+}
+.add-job form label,
+.changepass form label{
+    margin-bottom: 20px;
+}
+.add-job form label,
+.add-job form label input,
+.changepass form label,
+.changepass form label input{
+    width: 100%;
+}
+.add-job form label input,
+.changepass form label input{
+    height: 35px;
+}
+.add-job form label p,
+.add-job .category p,
+.changepass form label p{
+    margin-bottom: 5px;
+}
+.add-job form textarea{
+    width: 100%;
+}
+.add-job .category .nice-select{
+    width: 100%;
+}
+.add-job .button-link,
+.changepass .button-link{
+    text-align: center;
+}
+.add-job input[type="submit"],
+.changepass input[type="submit"]{
+    margin-top: 20px;
+    background: none;
+    border: 1px solid #fb246a;
+    color: #fb246a;
+    padding: 20px 25px;
+    text-transform: capitalize;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    line-height: 0;
+    border-radius: 0px;
+    overflow: hidden;
+    transition: color 0.4s linear;
+    position: relative;
+    z-index: 1;
+    cursor: pointer;
+}
+.add-job input[type="submit"]:hover,
+.changepass input[type="submit"]:hover{
+    background-color: #fb246a;
+    color: #fff;
+}
+/*End add job*/
+
+
+/*Change password*/
+
+
+
+
+
+
+
+@media(max-width: 992px){
+    /*Add job*/
+    .add-job form,
+    .changepass form{
+        padding: 0 80px;
+    }
+    /*End add job*/
+}
+@media(max-width: 768px){
+    /*Account*/
+    .account a{
+        padding: 0 10px;
+    }
+    .account .main-action h5{
+        font-size: 25px;
+    }
+    .account table th, 
+    .account table td{
+        padding: 3px;
+        font-size: 14px;
+    }
+    .account table td:nth-child(3),
+    .account table th:nth-child(3){
+        display: none;
+    }
+    /*End account*/
+
+
+    /*Add job*/
+    .add-job form,
+    .changepass form{
+        padding: 0 40px;
+    }
+    /*End add job*/
+}
+@media(max-width: 500px){
+    /*Account*/
+    .account table td:nth-child(7),
+    .account table th:nth-child(7),
+    .account table td:nth-child(6),
+    .account table th:nth-child(6){
+        display: none;
+    }
+    /*End account*/
+
+    /*Add job*/
+    .add-job{
+        margin-top: 30px;
+        margin-bottom: 40px;
+    }
+    .add-job h2{
+        font-size: 24px;
+    }
+    .add-job form{
+        padding: 0 10px;
+    }
+    /*End add job*/
+}
